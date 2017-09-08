@@ -9,10 +9,11 @@ This module runs the local plutil, converts it to XML and pulls out the image da
 
 To publish to github pages the work flow would be:
 - Install this tool globally: `npm install -g rime-to-map`
-- Create a new github repo
+- Create a new github repo with a Node gitignore option
 - Clone that repo locally `git clone https://github.com/yourname/your-map-repo-name.git`
 - Export the rime file out of the App and put it into that cloned directory
 - run `rime-to-map name-of-your-rime-file.rime`
 - This generates the web map and assets, `git add .` and `git commit -m 'cool'` and `git push`
 - Go to your repo on github and enable github pages for the repo under settings, your web map should now be published
+- Sometimes the the github page doesn't work on first commit, but can be fixed easily (https://stackoverflow.com/a/45907768)
 
