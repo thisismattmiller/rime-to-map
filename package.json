@@ -1,0 +1,27 @@
+{
+  "name": "rime-to-map",
+  "version": "1.0.0",
+  "description": "Convert a rime file from the PointPlot App to a map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisismattmiller/rime-to-map.git"
+  },
+  "keywords": [
+    "geo",
+    "mapping"
+  ],
+  "author": "@thisismmiller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thisismattmiller/rime-to-map/issues"
+  },
+  "homepage": "https://github.com/thisismattmiller/rime-to-map#readme",
+  "dependencies": {
+    "xmldom": "^0.1.27",
+    "xpath": "0.0.24"
+  }
+}
