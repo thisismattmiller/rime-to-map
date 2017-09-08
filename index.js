@@ -19,7 +19,7 @@ var utilName = (process.argv[3]) ? process.argv[3] : 'plutil'
 var fileName = path.parse(process.argv[2]).name + '.xml';
 
 
-exec(`${utilName} -convert xml1 "${process.argv[2]}"" -o "${fileName}"`, (err, stdout, stderr) => {
+exec(`${utilName} -convert xml1 "${process.argv[2]}" -o "${fileName}"`, (err, stdout, stderr) => {
   if (err) {
     // node couldn't execute the command    
     console.log(err)
